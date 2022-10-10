@@ -58,7 +58,7 @@ namespace xadrez
                 }
                 pos.definirValores(pos.linha + 1, pos.coluna + 1);
             }
-
+             
             //SO
             pos.definirValores(posicao.linha + 1, posicao.coluna - 1);
             while (tab.posicaoValida(pos) && podeMover(pos))
